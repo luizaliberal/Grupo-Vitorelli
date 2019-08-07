@@ -1,0 +1,294 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: transparent;
+  }
+  
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 97px;
+  }
+  
+  .logo img {
+    width: 208px;
+    height: 54px;
+  }
+  
+  .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .navbar ul li a {
+    color: #ffffff;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+  
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .icons img {
+    width: 20px;
+    padding: 10px;
+  }
+  
+  .banner-principal {
+    background: url("../assets/banner-principal.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 200px;
+  }
+
+  .banner-principal h1 {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 62px;
+    margin-bottom: 35px;
+  }
+  
+  .banner-principal span {
+    font-size: 14px;
+    letter-spacing: 10px;
+    cursor: pointer;
+  }
+  
+  .banner-secundario {
+    background: url("../assets/banner2.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 840px;
+  }
+  
+  .banner-secundario img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .produtos-fotos ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .produtos-fotos li {
+    max-width: 300px;
+    padding: 30px 20px;
+    position
+  }
+  
+  .produtos-fotos img {
+    position: relative;
+    z-index: -1;
+  }
+  
+  .produtos-fotos li:hover .image {
+    background: rgba(0, 255, 255, 0.5);
+  }
+  
+  .produtos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 50px;
+    position: relative;
+    top: -80px;
+    height: 160px;
+  }
+  
+  .produtos div {
+    padding: 20px 10px;
+    max-width: 230px;
+    margin: 4px;
+    text-align: center;
+    background: white;
+  }
+  
+  .produtos h4 {
+    font-size: 14px;
+    color: #878787;
+    font-weight: 400;
+  }
+  
+  .produtos span {
+    font-size: 18px;
+    color: #4a4a49;
+    font-weight: 700;
+  }
+  
+  .produtos img {
+    width: 100%;
+  }
+  
+  /* Footer Top */
+  .footer-top {
+    background: url("../assets/footer/gradiente.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    color: white;
+    padding: 30px 100px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .footer-texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: 1px solid #a8ddd9;
+    border-bottom: 1px solid #a8ddd9;
+    margin: 60px 0;
+  }
+  
+  .footer-texto h3 {
+    padding: 25px 40px;
+  }
+  
+  .footer-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .footer-links div {
+    margin: 0 25px;
+  }
+  
+  .footer-links input {
+    width: 250px;
+    padding: 15px;
+    background: rgba(246, 246, 246, 0.3);
+    color: #828282;
+    border: none;
+    outline: none;
+  }
+  
+  .footer-links input::-webkit-input-placeholder {
+    color: white;
+  }
+  
+  .footer-links input::-moz-placeholder {
+    color: white;
+  }
+  
+  .footer-links input:-ms-input-placeholder {
+    color: white;
+  }
+  
+  .footer-links input::-ms-input-placeholder {
+    color: white;
+  }
+  
+  .footer-links input::placeholder {
+    color: white;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    font-size: 13px;
+    color: #828282;
+    margin: 10px 75px;
+  }
+  
+  .footer-bottom,
+  .footer-bottom div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom div {
+    margin: 0 30px;
+  }
+  
+  .footer-bottom .pagamento,
+  .footer-bottom .seguranca {
+    text-transform: uppercase;
+  }
+  
+  .footer-bottom h4 {
+    padding: 0 10px;
+    font-weight: 400;
+  }
+  
+  .footer-bottom .logo-footer img {
+    width: 60px;
+  }
+  
+  .footer-bottom .pagamento img {
+    width: 40px;
+  }
+  
+  .footer-bottom .footer img {
+    padding: 0 4px;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+  }
+  

@@ -1,0 +1,26 @@
+.banner-principal {
+  background: url("../imgs/banner-principal.jpg") no-repeat center center;
+  background-size: cover;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 200px;
+}
+/* 
+
+    height: 639px;
+    display: flex;
+    padding-left: 200px; 
+    color: #ffffff;*/
+.banner-principal h1 {
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 62px;
+  margin-bottom: 35px;
+}
+
+.banner-principal span {
+  font-size: 14px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}

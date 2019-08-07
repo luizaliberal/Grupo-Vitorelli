@@ -1,0 +1,64 @@
+.produtos-fotos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 22px 0;
+}
+
+.produtos-fotos img {
+  width: 100%;
+}
+.produto-1 div,
+.produto-2 div,
+.produto-3 div {
+  z-index: -1;
+  color: white;
+}
+.produtos-fotos h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.produtos-fotos h2::after {
+  content: "";
+  background: white;
+  display: block;
+  width: 63px;
+  height: 2px;
+  margin: 20px auto;
+}
+.produtos-fotos h3 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+.produto-1 {
+  background-image: url("../imgs/banner-maios.jpg");
+}
+.produto-2 {
+  background-image: url("../imgs/banner-bodies.jpg");
+}
+.produto-3 {
+  background-image: url("../imgs/banner-biquinis.jpg");
+}
+.produto-1,
+.produto-2,
+.produto-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.produto-1:hover,
+.produto-2:hover,
+.produto-3:hover {
+  z-index: 1;
+  background: #eb5f3d;
+}
